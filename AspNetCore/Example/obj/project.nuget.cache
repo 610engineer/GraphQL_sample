@@ -1,0 +1,22 @@
+{
+  "version": 2,
+  "dgSpecHash": "kWhw1H3vHsZeuMfzCJX/Zv6E5hoTvCdd/KFJrRuBD3Gt1kHpYlkrPZz6yehFzbc7s4neS0Mrf0LBHdZ18dH6PQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\masat\\github\\GraphQL_sample\\AspNetCore\\Example\\Example.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\masat\\.nuget\\packages\\graphql\\5.1.1\\graphql.5.1.1.nupkg.sha512",
+    "C:\\Users\\masat\\.nuget\\packages\\graphql-parser\\8.0.0\\graphql-parser.8.0.0.nupkg.sha512",
+    "C:\\Users\\masat\\.nuget\\packages\\graphql.microsoftdi\\5.1.1\\graphql.microsoftdi.5.1.1.nupkg.sha512",
+    "C:\\Users\\masat\\.nuget\\packages\\graphql.server.transports.aspnetcore\\6.0.0\\graphql.server.transports.aspnetcore.6.0.0.nupkg.sha512",
+    "C:\\Users\\masat\\.nuget\\packages\\graphql.server.ui.playground\\6.0.0\\graphql.server.ui.playground.6.0.0.nupkg.sha512",
+    "C:\\Users\\masat\\.nuget\\packages\\graphql.systemtextjson\\5.1.1\\graphql.systemtextjson.5.1.1.nupkg.sha512",
+    "C:\\Users\\masat\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\masat\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\2.0.0\\microsoft.extensions.dependencyinjection.abstractions.2.0.0.nupkg.sha512",
+    "C:\\Users\\masat\\.nuget\\packages\\microsoft.extensions.options\\2.0.0\\microsoft.extensions.options.2.0.0.nupkg.sha512",
+    "C:\\Users\\masat\\.nuget\\packages\\microsoft.extensions.primitives\\2.0.0\\microsoft.extensions.primitives.2.0.0.nupkg.sha512",
+    "C:\\Users\\masat\\.nuget\\packages\\system.componentmodel.annotations\\4.7.0\\system.componentmodel.annotations.4.7.0.nupkg.sha512",
+    "C:\\Users\\masat\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.4.0\\system.runtime.compilerservices.unsafe.4.4.0.nupkg.sha512",
+    "C:\\Users\\masat\\.nuget\\packages\\system.text.json\\4.7.2\\system.text.json.4.7.2.nupkg.sha512"
+  ],
+  "logs": []
+}

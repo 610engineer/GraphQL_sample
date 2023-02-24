@@ -1,0 +1,10 @@
+C:\Users\masat\Desktop\Workspace\examples-master\src\StarWars\bin\Debug\netstandard2.0\StarWars.deps.json
+C:\Users\masat\Desktop\Workspace\examples-master\src\StarWars\bin\Debug\netstandard2.0\StarWars.dll
+C:\Users\masat\Desktop\Workspace\examples-master\src\StarWars\bin\Debug\netstandard2.0\StarWars.pdb
+C:\Users\masat\Desktop\Workspace\examples-master\src\StarWars\obj\Debug\netstandard2.0\StarWars.csproj.AssemblyReference.cache
+C:\Users\masat\Desktop\Workspace\examples-master\src\StarWars\obj\Debug\netstandard2.0\StarWars.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\masat\Desktop\Workspace\examples-master\src\StarWars\obj\Debug\netstandard2.0\StarWars.AssemblyInfoInputs.cache
+C:\Users\masat\Desktop\Workspace\examples-master\src\StarWars\obj\Debug\netstandard2.0\StarWars.AssemblyInfo.cs
+C:\Users\masat\Desktop\Workspace\examples-master\src\StarWars\obj\Debug\netstandard2.0\StarWars.csproj.CoreCompileInputs.cache
+C:\Users\masat\Desktop\Workspace\examples-master\src\StarWars\obj\Debug\netstandard2.0\StarWars.dll
+C:\Users\masat\Desktop\Workspace\examples-master\src\StarWars\obj\Debug\netstandard2.0\StarWars.pdb
