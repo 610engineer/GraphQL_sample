@@ -10,6 +10,7 @@ namespace Example
         public TestSchema(IServiceProvider provider)
             : base(provider)
         {
+            //"Query"で取得できる情報をTestQueryの内容に指定
             Query = (TestQuery)provider.GetService(typeof(TestQuery)) ?? throw new InvalidOperationException();
 
             FieldMiddleware.Use(new InstrumentFieldsMiddleware());

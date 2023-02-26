@@ -8,6 +8,7 @@ namespace Example
     {
         private readonly List<Person> _person = new List<Person>();
 
+        //実際のDBの実体
         public PersonDatas()
         {
             _person.Add(new Person{
@@ -28,6 +29,8 @@ namespace Example
                 Location = "Aichi"
             });
         }
+
+        //DBからIDをキーにして情報をGETするためのメソッド
         public Task<Person> GetPersonByIdAsync(string id)
         {
             return Task.FromResult(_person.FirstOrDefault(h => h.Id == id));

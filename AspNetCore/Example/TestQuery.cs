@@ -9,12 +9,14 @@ namespace Example
     {
         public TestQuery(PersonDatas data)
         {
-             Name = "Query";
+            //"Query"でGETできる情報を設定
+            Name = "Query";
 
+            //"person"を指定してIDをキーにDBにクエリを投げる
             FieldAsync<PersonType>(
                 "person",
                 arguments: new QueryArguments(
-                    new QueryArgument<NonNullGraphType<StringGraphType>> { Name = "id", Description = "id of the human" }
+                    new QueryArgument<NonNullGraphType<StringGraphType>> { Name = "id", Description = "id of the person" }
                 ),
                 resolve: async context => await data.GetPersonByIdAsync(context.GetArgument<string>("id"))
             );

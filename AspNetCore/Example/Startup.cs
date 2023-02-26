@@ -34,7 +34,7 @@ namespace Example
             if (env.IsDevelopment())
                 app.UseDeveloperExceptionPage();
 
-            app.UseGraphQL<ISchema>();
+            app.UseGraphQL<ISchema>("/api/test");
             app.UseGraphQLPlayground();
         }
     }
