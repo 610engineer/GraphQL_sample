@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
@@ -34,6 +35,18 @@ namespace Example
         public Task<Person> GetPersonByIdAsync(string id)
         {
             return Task.FromResult(_person.FirstOrDefault(h => h.Id == id));
+        }
+
+        public Task<Person> GetPersonByNameAsync(string name)
+        {
+            return Task.FromResult(_person.FirstOrDefault(h => h.Name == name));
+        }
+
+        public Person AddPerson(Person person)
+        {
+            person.Id = Guid.NewGuid().ToString();
+            _person.Add(person);
+            return person;
         }
     }
 }

@@ -14,11 +14,20 @@ namespace Example
 
             //"person"を指定してIDをキーにDBにクエリを投げる
             FieldAsync<PersonType>(
-                "person",
+                "Person",
                 arguments: new QueryArguments(
                     new QueryArgument<NonNullGraphType<StringGraphType>> { Name = "id", Description = "id of the person" }
                 ),
                 resolve: async context => await data.GetPersonByIdAsync(context.GetArgument<string>("id"))
+            );
+
+            //"person"を指定してIDをキーにDBにクエリを投げる
+            FieldAsync<PersonType>(
+                "Name",
+                arguments: new QueryArguments(
+                    new QueryArgument<NonNullGraphType<StringGraphType>> { Name = "name", Description = "name of the person" }
+                ),
+                resolve: async context => await data.GetPersonByNameAsync(context.GetArgument<string>("name"))
             );
         }
     }
