@@ -10,11 +10,12 @@ namespace HotChocolateSample
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddDbContext<ApplicationDbContext>(
-                options => options.UseSqlite("Data Source=conferences.db"));
+                options => options.UseSqlite("Data Source=testGraphQL.db"));
 
             services
                 .AddGraphQLServer()
-                .AddQueryType<TestQuery>();
+                .AddQueryType<TestQuery>()
+                .AddMutationType<TestMutation>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -29,8 +30,9 @@ namespace HotChocolateSample
 
             app.UseEndpoints(endpoints =>
             {
-                endpoints.MapGraphQL();
+                endpoints.MapGraphQL("/graphql");
             });
+            
         }
     }
 }
