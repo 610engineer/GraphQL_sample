@@ -10,7 +10,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace HotChocolateSample.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20230313141020_Initial")]
+    [Migration("20230315142123_Initial")]
     partial class Initial
     {
         /// <inheritdoc />
@@ -24,6 +24,10 @@ namespace HotChocolateSample.Migrations
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("INTEGER");
+
+                    b.Property<string>("Location")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
 
                     b.Property<string>("Name")
                         .IsRequired()

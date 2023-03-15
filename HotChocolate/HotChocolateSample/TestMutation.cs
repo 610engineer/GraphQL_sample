@@ -6,12 +6,12 @@ namespace HotChocolateSample
     {
         public async Task<Person> AddPersonAsync(
             [Service] ApplicationDbContext context,
-            string name)
+            string name, string location)
         {
             var person = new Person
             {
                 Name = name,
-                //Location = input.Location
+                Location = location
             };
 
             context.Persons.Add(person);
