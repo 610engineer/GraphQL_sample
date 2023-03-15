@@ -14,7 +14,12 @@ namespace HotChocolateSample
         {
             return await context.Persons.FirstOrDefaultAsync(x => x.Id == id);
         }
-            
+
+        public async Task<Person> GetPersonByName([Service] ApplicationDbContext context, string name)
+        {
+            return await context.Persons.FirstOrDefaultAsync(x => x.Name == name);
+        }
+
 
 
     }
