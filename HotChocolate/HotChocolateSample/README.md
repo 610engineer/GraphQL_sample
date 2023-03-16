@@ -1,3 +1,6 @@
+# path
+https://localhost:7279/graphql
+
 # Query
 ## ‘SŒŒŸõ
 query{

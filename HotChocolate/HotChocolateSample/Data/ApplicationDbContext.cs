@@ -9,6 +9,7 @@ namespace HotChocolateSample.Data
         {
         }
 
+        //DATABASEとやり取りするためのもの
         public DbSet<Person> Persons { get; set; }
     }
 }
